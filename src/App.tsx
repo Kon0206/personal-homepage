@@ -47,7 +47,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 px-6 py-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center glass rounded-full px-6 py-3 shadow-sm">
-          <div className="font-display font-bold text-xl tracking-tight">个人主页.</div>
+          <div className="font-display font-bold text-xl tracking-tight">个人主页</div>
           <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-600">
             <a href="#about" className="hover:text-red-600 transition-colors">关于我</a>
             <a href="#learning" className="hover:text-red-600 transition-colors">学习记录</a>
@@ -283,7 +283,7 @@ export default function App() {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <a 
-                href="mailto:kon841529429@gmail.com" 
+                href="mailto:841529429@qq.com" 
                 className="inline-flex items-center gap-3 px-10 py-5 bg-white text-zinc-900 rounded-2xl font-bold text-lg hover:bg-red-50 transition-all hover:scale-105"
               >
                 <Mail className="w-6 h-6" />
@@ -306,7 +306,7 @@ export default function App() {
       {/* Footer */}
       <footer className="py-12 px-6 bg-zinc-900 border-t border-zinc-800 text-zinc-500">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="font-display font-bold text-white text-xl">个人主页.</div>
+          <div className="font-display font-bold text-white text-xl">个人主页</div>
           <div className="flex gap-8 text-sm font-medium">
             <a href="#about" className="hover:text-white transition-colors">关于我</a>
             <a href="#learning" className="hover:text-white transition-colors">学习记录</a>
@@ -314,7 +314,7 @@ export default function App() {
           </div>
           <div className="text-sm flex items-center gap-4">
             <span>© 2026 保持热爱，奔赴山海.</span>
-            <span className="px-2 py-0.5 bg-zinc-800 rounded text-[10px] uppercase tracking-widest text-zinc-400">Built with AI Studio</span>
+            <span className="px-2 py-0.5 bg-zinc-800 rounded text-[10px] uppercase tracking-widest text-zinc-400"></span>
           </div>
         </div>
       </footer>
